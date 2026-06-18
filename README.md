@@ -10,6 +10,17 @@ VirtualBox 버전 7.2.0 r170228 (Qt6.8.0 on windows)
 - CPU: 2 vCPU
 - Memory: 8 GB
 
+VirtualBox 설정
+- 포트 포워딩: 80
+- Windows Hosts 파일 위치
+```
+C:\Windows\System32\drivers\etc
+```
+- Windows Hosts 파일 수정 (GitLab 도메인 매핑)
+```
+127.0.0.1 gitlab.example.com
+```
+
 ### AlmaLinux 및 RHEL 호환 배포판에 Linux 패키지를 설치하세요.
 
 필수 조건
