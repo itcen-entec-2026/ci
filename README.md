@@ -67,6 +67,21 @@ gitlab-ee 19.0.2-ee.0.el9
 gitlab-ctl status
 ```
 
+로그인 · GitLab
+- GitLab 엔터프라이즈 에디션
+```
+https://gitlab.example.com
+```
+
+사용자명 또는 기본 이메일
+```
+root
+```
+패스워드
+```
+strongpassword
+```
+
 ---
 
 GitLab 설치 요구 사항
