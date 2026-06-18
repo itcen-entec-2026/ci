@@ -9,15 +9,6 @@ VirtualBox 버전 7.2.0 r170228 (Qt6.8.0 on windows)
 - Storage: 100 GB
 - CPU: 2 vCPU
 - Memory: 8 GB
----
-
-GitLab 설치 요구 사항
-- https://docs.gitlab.com/install/requirements/
-- GitLab installation requirements
-
-경우에 따라 GitLab은 최소 8GB의 메모리로 실행될 수 있습니다.
-- https://docs.gitlab.com/install/requirements/#memory
-- In some cases, GitLab can run with at least 8 GB of memory.
 
 ### AlmaLinux 및 RHEL 호환 배포판에 Linux 패키지를 설치하세요.
 
@@ -31,7 +22,7 @@ systemctl status firewalld
 
 Firewalld(방화벽 서비스) 서비스 중지
 ```bash
-systemctl(방화벽 서비스) stop firewalld
+systemctl stop firewalld
 ```
 
 Firewalld 서비스 자동 시작 비활성화
@@ -51,6 +42,14 @@ GITLAB_ROOT_EMAIL="admin@example.com" GITLAB_ROOT_PASSWORD="strongpassword" EXTE
 ```
 
 ---
+
+GitLab 설치 요구 사항
+- https://docs.gitlab.com/install/requirements/
+- GitLab installation requirements
+
+경우에 따라 GitLab은 최소 8GB의 메모리로 실행될 수 있습니다.
+- https://docs.gitlab.com/install/requirements/#memory
+- In some cases, GitLab can run with at least 8 GB of memory.
 
 AlmaLinux 및 RHEL 호환 배포판에 Linux 패키지를 설치하세요.
 - https://docs.gitlab.com/install/package/almalinux/
