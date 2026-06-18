@@ -11,7 +11,7 @@ VirtualBox 버전 7.2.0 r170228 (Qt6.8.0 on windows)
 - Memory: 8 GB
 
 VirtualBox 설정
-- 포트 포워딩: 80
+- 포트 포워딩: 80, 443
 - Windows Hosts 파일 위치
 ```
 C:\Windows\System32\drivers\etc
