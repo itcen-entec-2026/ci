@@ -1,7 +1,7 @@
 # ci
 CI/CD 구축
 
-## GitLab 구축
+## GitLab 설치
 
 ### GitLab 설치 요구 사항
 
@@ -81,3 +81,5 @@ GitLab 패키지 저장소를 추가합니다.
 패키지를 설치하세요
 - https://docs.gitlab.com/install/package/almalinux/#install-the-package
 - Install the package
+
+## GitLab 설정
