@@ -41,6 +41,15 @@ curl --location "https://packages.gitlab.com/install/repositories/gitlab/gitlab-
 GITLAB_ROOT_EMAIL="admin@example.com" GITLAB_ROOT_PASSWORD="strongpassword" EXTERNAL_URL="https://gitlab.example.com" dnf install gitlab-ee
 ```
 
+gitlab-ee 19.0.2-ee.0.el9
+```bash
+===============================================================================================================================================================================================
+ 꾸러미                                                  구조                              버전                                              저장소                                       크기
+===============================================================================================================================================================================================
+설치 중:
+ gitlab-ee                                               x86_64                            19.0.2-ee.0.el9                                   gitlab_gitlab-ee                            1.0 G
+```
+
 ---
 
 GitLab 설치 요구 사항
