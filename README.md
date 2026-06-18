@@ -50,6 +50,11 @@ gitlab-ee 19.0.2-ee.0.el9
  gitlab-ee                                               x86_64                            19.0.2-ee.0.el9                                   gitlab_gitlab-ee                            1.0 G
 ```
 
+서비스 상태 확인:
+```bash
+gitlab-ctl status
+```
+
 ---
 
 GitLab 설치 요구 사항
