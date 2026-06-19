@@ -153,3 +153,15 @@ docker compose up -d
 ```
 
 ---
+
+Docker를 이용한 설치 (루트 권한 필요 없음)
+
+https://docs.gitea.com/installation/install-with-docker-rootless#basics
+
+```
+cd /home/god/gitea/gitea-6-rootless
+mkdir -p {data,config}
+docker compose up -d
+```
+
+---
