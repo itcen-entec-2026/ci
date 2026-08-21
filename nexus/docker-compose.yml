@@ -8,8 +8,7 @@ services:
       - "8081:8081"
 
     volumes:
-#      - nexus-data:/nexus-data
-      - ./nexus-data:/nexus-data
+      - nexus-data:/nexus-data
 
     environment:
       INSTALL4J_ADD_VM_PARAMS: >-
@@ -18,5 +17,5 @@ services:
         -XX:MaxDirectMemorySize=2g
         -Djava.util.prefs.userRoot=/nexus-data/javaprefs
 
-#volumes:
-#  nexus-data:
+volumes:
+  nexus-data:
