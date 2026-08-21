@@ -18,5 +18,5 @@ services:
         -XX:MaxDirectMemorySize=2g
         -Djava.util.prefs.userRoot=/nexus-data/javaprefs
 
-volumes:
-  nexus-data:
+#volumes:
+#  nexus-data:
