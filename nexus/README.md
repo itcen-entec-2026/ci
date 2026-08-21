@@ -25,3 +25,30 @@ docker compose logs -f nexus
 ```
 docker exec nexus cat /nexus-data/admin.password
 ```
+
+## Nexus Repository 에 라이브러리 추가
+
+http://localhost:8081/repository/maven-releases/
+
+실제 업로드 전 드라이런(권장
+
+```
+./nexus_m2_bulk_upload.sh \
+--root "repository" \
+--nexus "http://localhost:8081" \
+--repo "maven-releases" \
+--user "admin" \
+--pass "admin" \
+--dry-run
+```
+
+실제 업로드(dry-run 인자 제거)
+
+```
+./nexus_m2_bulk_upload.sh \
+--root "repository" \
+--nexus "http://localhost:8081" \
+--repo "maven-releases" \
+--user "admin" \
+--pass "admin"
+```
