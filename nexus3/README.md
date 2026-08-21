@@ -34,7 +34,7 @@ http://localhost:8081/repository/maven-releases/
 
 ```
 ./nexus_m2_bulk_upload.sh \
---root "repository" \
+--root "/home/god/repository" \
 --nexus "http://localhost:8081" \
 --repo "maven-releases" \
 --user "admin" \
@@ -46,7 +46,7 @@ http://localhost:8081/repository/maven-releases/
 
 ```
 ./nexus_m2_bulk_upload.sh \
---root "repository" \
+--root "/home/god/repository" \
 --nexus "http://localhost:8081" \
 --repo "maven-releases" \
 --user "admin" \
