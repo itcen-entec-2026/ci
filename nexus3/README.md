@@ -15,7 +15,7 @@ docker compose ps
 ```
 
 ```
-docker compose logs -f nexus
+docker compose logs -f nexus3
 ```
 
 ## Nexus 초기 접속 및 Admin 비밀번호 확인
@@ -23,7 +23,7 @@ docker compose logs -f nexus
 접속은 http://localhost:8081이며, 최초 admin 비밀번호는 다음으로 확인합니다.
 
 ```
-docker exec nexus cat /nexus-data/admin.password
+docker exec nexus3 cat /nexus-data/admin.password
 ```
 
 ## Nexus Repository 에 라이브러리 추가
